@@ -30,3 +30,20 @@ p{
 
 Shorthand ile ilgili daha fazla örnek için [şuraya](https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties) bakabilirsiniz.
 
+## Selection Color (Seçim Rengi)
+
+Tarayıcıda imlecimizle bir alanı seçtiğimizde mavi bir renk tonuyla seçim işlemini gerçekleştiriyor. Bunu ``::selection`` ile değiştirebiliyoruz.
+
+```css
+::selection{
+  background-color:#f00;
+  color:#fff;
+}
+
+/* Mozilla */
+::-moz-selection{
+  background-color:#f00;
+  color:#fff;
+}
+```
+
