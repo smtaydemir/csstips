@@ -47,3 +47,27 @@ Tarayıcıda imlecimizle bir alanı seçtiğimizde mavi bir renk tonuyla seçim 
 }
 ```
 
+##Placeholder Text
+
+Bildiğiniz gibi form elemanlarında kullanıcı bir şey girmediğinde şeffaf olarak görünen text'i placeholder ile belirliyoruz. Ancak gelen tasarımda placeholder text'i default olandan farklı bir şekilde biçimlendirilmiş olabiliyor. CSS ile bu text özelliklerini değiştirebiliyoruz.
+
+```css
+
+/** webkit **/
+::-webkit-input-placeholder{
+  color:#f00;
+  background-color:#f5f5f5;
+}
+
+/** mozilla **/
+::-moz-placeholder{
+  color:#f00;
+  background-color:#f5f5f5;
+}
+
+/** ms **/
+::-ms-input-placeholder{
+  color:#f00;
+  background-color:#f5f5f5;
+}
+```
